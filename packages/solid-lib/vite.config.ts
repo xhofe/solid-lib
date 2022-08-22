@@ -10,11 +10,14 @@ export default defineConfig({
   },
   build: {
     target: "esnext",
-    lib: {
-      entry: resolve(__dirname, "src/index.tsx"),
-      name: "SolidLib",
-      fileName: "solid-lib",
-    },
+    lib:
+      process.env.NODE_ENV === "production"
+        ? {
+            entry: resolve(__dirname, "src/index.tsx"),
+            name: "SolidLib",
+            fileName: "solid-lib",
+          }
+        : undefined,
     rollupOptions: {
       external: ["solid-js"],
       output: {
