@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  base: "/solid-lib",
   build: {
     target: 'esnext',
   },
