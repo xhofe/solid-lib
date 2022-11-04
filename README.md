@@ -4,7 +4,7 @@
 
 # solid-lib
 
-☘ A solidjs component of progress bar, the custom colors are supported. Inspired by [vue3-progress](https://github.com/tangyouge/vue3-progress) but for [Solidjs](https://solidjs.com).
+☘ A lib template for [Solidjs](https://solidjs.com).
 
 [![release](https://github.com/Xhofe/solid-lib/actions/workflows/release.yml/badge.svg)](https://github.com/Xhofe/solid-lib/actions/workflows/release.yml)
 [![npm](https://img.shields.io/npm/dm/solid-lib.svg)](https://www.npmjs.com/package/solid-lib)
