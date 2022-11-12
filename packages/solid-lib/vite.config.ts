@@ -14,17 +14,12 @@ export default defineConfig({
       process.env.NODE_ENV === "production"
         ? {
             entry: resolve(__dirname, "src/index.tsx"),
-            name: "SolidLib",
             fileName: "solid-lib",
+            formats: ["es", "cjs"],
           }
         : undefined,
     rollupOptions: {
-      external: ["solid-js"],
-      output: {
-        globals: {
-          "solid-js": "Solidjs",
-        },
-      },
+      external: ["solid-js", "solid-js/web", "solid-js/store"],
     },
   },
 });

@@ -6,12 +6,12 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/solid-lib.umd.cjs",
+  "main": "./dist/solid-lib.cjs",
   "module": "./dist/solid-lib.js",
   "exports": {
     ".": {
       "import": "./dist/solid-lib.js",
-      "require": "./dist/solid-lib.umd.cjs"
+      "require": "./dist/solid-lib.cjs"
     }
   },
   "types": "./dist/index.d.ts",
