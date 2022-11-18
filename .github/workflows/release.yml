@@ -34,7 +34,7 @@ jobs:
           sed -i -e "s/0.0.0/$version/g" packages/solid-lib/package.json
           cat packages/solid-lib/package.json
         
-      - uses: pnpm/action-setup@v2.2.2
+      - uses: pnpm/action-setup@v2.2.4
         name: Install pnpm
         id: pnpm-install
         with:
