@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^18.7.8",
+    "@types/node": "^22.0.0",
     "typescript": "^4.7.4",
     "vite": "^3.0.9",
     "vite-plugin-dts": "^1.4.1",
